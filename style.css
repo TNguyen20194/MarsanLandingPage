@@ -1,0 +1,42 @@
+:root {
+    --font-family-primary: "Poppins", "Helvectica", sans-serif;
+    --clr-black: #000101;
+    --clr-white: #fefffe;
+  }
+/*  Box-sizing rules */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Set core root default */
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+  html {
+    font-family: var(--font-family-primary);
+  }
+  
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+
